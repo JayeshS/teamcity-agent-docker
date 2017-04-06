@@ -1,7 +1,7 @@
 FROM jetbrains/teamcity-agent
 
 LABEL Maintainer "Jayesh Shere" jshere@expedia.com
-LABEL Description="Teamcity Agent" Version="1.0"
+LABEL Description="Teamcity Agent" Version="3.0"
 
 USER root
 
