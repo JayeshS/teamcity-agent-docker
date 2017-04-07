@@ -8,3 +8,5 @@ USER root
 RUN apt-get update
 RUN apt-get -y install nodejs
 RUN apt-get -y install npm
+
+RUN ln -s /usr/bin/nodejs /usr/bin/node
